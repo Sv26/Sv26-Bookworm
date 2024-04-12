@@ -46,7 +46,9 @@ const DetailsSection = () => {
 
                         <h3>&#8377;{bookData.price}</h3>
 
-                        <a onClick={handleAddToCart} className="button-primary">Add To Cart</a>
+                       
+                        <button onClick={handleAddToCart} className="button-primary">Add To Cart</button>
+
                     </div>
                 </div>
             </div>
